@@ -31,7 +31,7 @@ HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), 'requirements.txt')
 
-UPSTREAM_REPO_URL = "https://github.com/nastiflower/aleuserbot"
+UPSTREAM_REPO_URL = "https://github.com/itsrxns/userbot-100101110"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
