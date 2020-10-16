@@ -23,8 +23,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "100101110"
 @bot.on(dev_cmd(pattern=f"alive", outgoing=True))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running. """
-    await alive.edit("**✅ Userbot di Gucci RxnS 4L #VVS 💎⌚🇮🇹 online.**\n"
-                     f"**├** clone userbot di **Gucci RxnS** aka @lordrxns\n"
+    await alive.edit("**✅ Userbot di** [Gucci RxnS](t.me/lordrxns) **online.**\n"
+                     f"**├** clone userbot di [Gucci RxnS](t.me/lordrxns)\n"
                      f"**└** VirtualEnv: 2\n\n"
                      f"**Informazioni Userbot:**\n"
                      f"**• ℹ️ Telethon:** {version.__version__}\n"
