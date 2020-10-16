@@ -25,5 +25,5 @@ async def amireallyalive(cloni):
     """ For .alive command, check if the bot is running. """
     await cloni.edit("**🤖 Cloni attivi**\n" 
                      f"** ├** [𝐿𝑒𝑡𝑖𝑧𝑖𝑎ⁿᵃᶻ](t.me/LaMonacaDiMonza) **[ ✅ ]**\n"
-                     f"** └** [AlessandrO](t.me/Boicottato) **[ ✅ ]**"\n)
+                     f"** └** [AlessandrO](t.me/Boicottato) **[ ✅ ]**")
                      
