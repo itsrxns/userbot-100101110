@@ -16,14 +16,14 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "100101110"
 
 @bot.on(dev_cmd(pattern="img ?(.*)"))
 async def img_sampler(event):
-    await event.edit("**Processing...**")
+    await event.edit("`Processing...`")
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
     elif reply:
         query = reply.message
     else:
-    	await event.edit(f"`{DEFAULTUSER}:`**Inserisci un testo da ricercare come img.**")
+    	await event.edit("`um, mind mentioning what I actually need to search for ;_;`")
     	return
         
     lim = findall(r"lim=\d+", query)
@@ -33,7 +33,7 @@ async def img_sampler(event):
         lim = lim.replace("lim=", "")
         query = query.replace("lim=" + lim[0], "")
     except IndexError:
-        lim = 4
+        lim = 5
     response = googleimagesdownload()
 
     # creating list of arguments
