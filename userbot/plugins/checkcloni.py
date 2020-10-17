@@ -23,9 +23,9 @@ async def _(event):
         return 
     await event.edit("**🔎 Verifico cloni attivi...**")
     await asyncio.sleep(2)
-    await event.edit("**✅ 3 cloni attivi trovati.**")
+    await event.edit("**✅ 4 cloni attivi trovati.**")
     await asyncio.sleep(2)
-    await event.edit("**🤖 Cloni attivi**\n ├ [𝐿𝑒𝑡𝑖𝑧𝑖𝑎ⁿᵃᶻ](t.me/LaMonacaDiMonza) ✅\n ├ [AlessandrO](t.me/Boicottato) ✅\n └ [Marteⁿᵃᶻ💎🔥 ⁪⁬⁮⁮⁮⁮](t.me/dubitante) ✅")
+    await event.edit("**🤖 Cloni attivi**\n ├ [𝐿𝑒𝑡𝑖𝑧𝑖𝑎ⁿᵃᶻ](t.me/LaMonacaDiMonza) ✅\n ├ [AlessandrO](t.me/Boicottato) ✅\n ├ [Marteⁿᵃᶻ💎🔥 ⁪⁬⁮⁮⁮⁮](t.me/dubitante) ✅\n └ [Dανiδe🐰🥕⁪⁬⁮⁮⁮⁮](t.me/notdavi) ✅")
     await asyncio.sleep(1)
-    await event.edit("**🤖 Cloni attivi**\n ├ [𝐿𝑒𝑡𝑖𝑧𝑖𝑎ⁿᵃᶻ](t.me/LaMonacaDiMonza) ✅\n ├ [AlessandrO](t.me/Boicottato) ✅\n └ [Marteⁿᵃᶻ💎🔥 ⁪⁬⁮⁮⁮⁮](t.me/dubitante) ✅\n\n**Verifica completata.**")
+    await event.edit("**🤖 Cloni attivi**\n ├ [𝐿𝑒𝑡𝑖𝑧𝑖𝑎ⁿᵃᶻ](t.me/LaMonacaDiMonza) ✅\n ├ [AlessandrO](t.me/Boicottato) ✅\n ├ [Marteⁿᵃᶻ💎🔥 ⁪⁬⁮⁮⁮⁮](t.me/dubitante) ✅\n └ [Dανiδe🐰🥕⁪⁬⁮⁮⁮⁮](t.me/notdavi) ✅\n\n**Verifica completata.**")
     await asyncio.sleep(1)
