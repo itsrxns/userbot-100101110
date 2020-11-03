@@ -9,7 +9,7 @@
 # Crediti: @100101110
 #
 """Commands:
-.raidoff"""
+.stopraid"""
 
 import asyncio
 from telethon import events
@@ -17,7 +17,7 @@ from userbot import bot
 from userbot.system import dev_cmd
 
 
-@bot.on(dev_cmd(pattern=f"raidoff", outgoing=True))
+@bot.on(dev_cmd(pattern=f"stopraid", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return 
