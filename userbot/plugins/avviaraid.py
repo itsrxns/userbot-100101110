@@ -9,7 +9,7 @@
 # Crediti: @100101110
 #
 """Commands:
-.raidon"""
+.avviaraid"""
 
 import asyncio
 from telethon import events
@@ -17,20 +17,20 @@ from userbot import bot
 from userbot.system import dev_cmd
 
 
-@bot.on(dev_cmd(pattern=f"raidon", outgoing=True))
+@bot.on(dev_cmd(pattern=f"avviaraid", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return 
     await event.edit("**🚨 RAID AVVIATO 🚨**")
-    await asyncio.sleep(0.3)
-    await event.edit("**   RAID AVVIATO   **")
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(0.5)
+    await event.edit("**.  RAID AVVIATO  .**")
+    await asyncio.sleep(0.5)
     await event.edit("**🚨 RAID AVVIATO 🚨**")
-    await asyncio.sleep(0.3)
-    await event.edit("**   RAID AVVIATO   **")
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(0.5)
+    await event.edit("**.  RAID AVVIATO  .**")
+    await asyncio.sleep(0.5)
     await event.edit("**🚨 RAID AVVIATO 🚨**")
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(0.5)
     await event.edit("**🚨 RAID TRA 20 SECONDI 🚨**")
     await asyncio.sleep(1)
     await event.edit("**🚨 RAID TRA 19 SECONDI 🚨**")
