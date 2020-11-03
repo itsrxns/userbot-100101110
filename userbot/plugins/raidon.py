@@ -27,6 +27,10 @@ async def _(event):
     await asyncio.sleep(0.3)
     await event.edit("**🚨 RAID AVVIATO 🚨**")
     await asyncio.sleep(0.3)
+    await event.edit("**   RAID AVVIATO   **")
+    await asyncio.sleep(0.3)
+    await event.edit("**🚨 RAID AVVIATO 🚨**")
+    await asyncio.sleep(0.3)
     await event.edit("**🚨 RAID TRA 20 SECONDI 🚨**")
     await asyncio.sleep(1)
     await event.edit("**🚨 RAID TRA 19 SECONDI 🚨**")
@@ -66,35 +70,3 @@ async def _(event):
     await event.edit("**🚨 RAID TRA 2 SECONDI 🚨**")
     await asyncio.sleep(1)
     await event.edit("**🚨 RAID TRA 1 SECONDO 🚨**")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
