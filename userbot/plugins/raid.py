@@ -23,6 +23,6 @@ async def _(event):
         return 
     await event.edit("**⏳ Aggiungo utente selezionato alla lista raid...**")
     await asyncio.sleep(2)
-    await event.edit("**✅ Utente aggiunto.**\n **✅ link generato.**)
+    await event.edit("**✅ Utente aggiunto.\n ✅ link generato.**)
     await asyncio.sleep(1)
     await event.edit("**🔎 Configurazione raid:**\n ├ Userbot in uso: **647**\n ├ Numero messaggi: **300**\n ├ Messaggi totali: **194.100**\n └ Time sleep: **0.5**\n\n **Utilizza .raidon per avviare il raid, .raidstop per annullare il raid.**")
